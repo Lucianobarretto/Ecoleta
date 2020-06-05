@@ -1,0 +1,24 @@
+{
+  "name": "projeto_nlw",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucianobarretto/projeto_nlw.git"
+  },
+  "author": "luciano_barreto_com_rocketseat_nlw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucianobarretto/projeto_nlw/issues"
+  },
+  "homepage": "https://github.com/Lucianobarretto/projeto_nlw#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
