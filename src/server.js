@@ -5,6 +5,14 @@ const server = express()
 // Configurar pasta pública
 server.use(express.static("public"))
 
+
+// utilizando template engine
+const nunjucks = require("nunjucks")
+nunjucks.configure("src/views", {
+    express: server,
+    noCache: true
+})
+
 // Configurar caminhos da minha aplicação
 // Página inicial
 // server.get("/", function(req, res) {
@@ -15,15 +23,15 @@ server.use(express.static("public"))
 //    res.send("Hello world")     // o REQ é uma requisição e o RES é uma resposta
 //}) =====> isso tudo foi comentado para entender o passo-a-passo... até aqui tudo OK!
 server.get("/", (req, res) => {
-    res.sendFile(__dirname + "/views/index.html")
+    return res.render("index.html", { title: "Um título"})
 })
 
 server.get("/create-point", (req, res) => {
-    res.sendFile(__dirname + "/views/create-point.html")
+    return res.render("create-point.html")
 })
 
-server.get("/search-results", (req, res) => {
-    res.sendFile(__dirname + "/views/search-results.html")
+server.get("/search", (req, res) => {
+    return res.render("search-results.html")
 })
 
 // os termos aqui tem a função de "ligar o servidor"
