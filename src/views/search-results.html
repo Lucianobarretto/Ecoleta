@@ -8,7 +8,6 @@
 
 {% block styles %}
     <link rel="stylesheet" href="/styles/search-results.css">
-
 {% endblock styles %}
 
 {% block content %}
@@ -30,7 +29,7 @@
                 <div class="card">
                     <img src="{{ place.image }}" alt="{{ place.name }}">
                     <h1>{{ place.name }}</h1>
-                    <h3>{{ place.items }}</h3>
+                    <h3> {{ place.items}}</h3>
                     <p>
                         {{ place.city }}, {{ place.state }}
                         <br/>
