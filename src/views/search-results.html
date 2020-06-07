@@ -16,36 +16,39 @@
 
     <main>
 
+    {% if total > 0 %}
+
         <h4>
-            <strong>2 pontos</strong>encontrados
+            <strong>{{ total }} pontos</strong> encontrados
         </h4>
 
         <div class="cards">
-            <div class="card">
-                <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v211batch11-filmful-276-electriccar_2.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=&markalpha=90&markpad=13&markscale=10&markx=25&q=65&usm=15&vib=3&w=800&s=83f160a3bcaaf18262cd8c0743826f5f" alt="Colectoria">
-                <h1>Colectoria</h1>
-                <h3>Resíduos Eletrônicos, Lâmpadas</h3>
-                <p>
-                    Rio do Sul, Santa Catarina
-                    <br/>
-                    Guilherme Gemballa, Jardim América
-                    <br/>
-                    Nº 260
-                </p>
-            </div>
-            <div class="card">
-                <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v211batch11-robbin-321-recycle_2.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=&markalpha=90&markpad=13&markscale=10&markx=25&q=65&usm=15&vib=3&w=800&s=b30e47721a5d3eac3931b4b304b1a7e2" alt="Papersider">
-                <h1>Papersider</h1>
-                <h3>Papéis e Papelão</h3>
-                <p>
-                    Rio do Sul, Santa Catarina
-                    <br/>
-                    Guilherme Gemballa, Jardim América
-                    <br/>
-                    Nº 260
-                </p>
-            </div>
+
+
+            {% for place in places %}
+
+                <div class="card">
+                    <img src="{{ place.image }}" alt="{{ place.name }}">
+                    <h1>{{ place.name }}</h1>
+                    <h3>{{ place.items }}</h3>
+                    <p>
+                        {{ place.city }}, {{ place.state }}
+                        <br/>
+                        {{ place.address }}
+                        <br/>
+                        {{ place.address2 }}
+                    </p>
+                </div>
+
+            {% endfor %}
+
         </div>
+
+    {% else %}
+
+        <h4><strong>Nenhum</strong> local encontrado</h4>
+
+    {% endif %}
 
     </main>
 
