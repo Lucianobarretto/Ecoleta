@@ -67,13 +67,16 @@ function handleSelectedItem(event) {
 
     const itemId = itemLi.dataset.id
 
+
+    // console.log('ITEM ID: ', itemId)  // ====> comando para teste!!
+
     // ==> verificar se existe itens selecionados, e se sim pegar os ítens selecionados
     const alreadySelected = selectedItems.findIndex( item => {  // forma convencional ===> ( function(item) {
         const itemFound = item == itemId                         // forma resumida, usando "arrow function" ===> ( (item) => {
         return itemFound                                          // e caso um só argumento, não precisa de () ===> ( item => {
     })  // a "const itemFound" acima: será true ou false!!!
 
-    // ==> se selecionado
+    // ==> se já estiver selecionado
     if( alreadySelected >= 0 ) {
         // ==> tirar da seleção
         const filteredItems = selectedItems.filter( item => {
@@ -86,6 +89,8 @@ function handleSelectedItem(event) {
         // ==> se não selecionado, adicionar à seleção
         selectedItems.push(itemId)
     }
+
+    // console.log('selectedItems: ', selectedItems)  // ====> comando para teste!!
 
     // ==> por fim, atualizar o campo escondido com os ítens selecionados...
     collectedItems.value = selectedItems
