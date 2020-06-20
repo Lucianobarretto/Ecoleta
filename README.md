@@ -16,7 +16,7 @@
 
 ---
 
-## 😊 Sobre
+## 📑 Sobre
 <p>Um projeto criado do zero durante a "Next Level Week #01" da Rocketseat. É uma aplicação para gerenciamento, localização e centralização dos pontos de coleta seletiva de recicláveis.</p>
 <p>A coleta seletiva é o recolhimento de materiais recicláveis que foram previamente separados do lixo comum pela população. Ao ser colocada em prática, ela permite que o vidro, o papel, o plástico e os metais existentes nos objetos descartados, entre outros, sejam utilizados na confecção de novos produtos. O reaproveitamento reduz a quantidade de resíduos que é destinada ao aterro sanitário, aumentando sua vida útil e preservando o meio ambiente.</p>
 <p>Este evento foi online e totalmente gratuito que serve para ajudar na evolução de desenvolvedores.</p>
@@ -31,7 +31,7 @@ Ecoleta é um projeto que conecta pessoas e empresas na coleta de resíduos ♻
 
 ---
 
-## 🚀 Tecnologias e Ferramentas utilizadas
+## 📑 Tecnologias e Ferramentas utilizadas
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/)
