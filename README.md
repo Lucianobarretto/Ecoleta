@@ -8,7 +8,7 @@
 
 ## Ecoleta Page
 
-![Ecoleta](https://github.com/Lucianobarretto/projeto_nlw/blob/master/ecoleta.gif)
+![Ecoleta](https://github.com/Lucianobarretto/projeto_nlw/blob/master/ecoletanew.gif)
 
 ### Assista a demonstração em vídeo
 [![Vídeo demonstração da home page](http://img.youtube.com/vi/A-c4NMjD9Fg/0.jpg)](http://www.youtube.com/watch?v=A-c4NMjD9Fg "Ecoleta - gerenciador de pontos de coleta seletiva")
