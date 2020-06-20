@@ -38,7 +38,7 @@ Ecoleta é um projeto que conecta pessoas e empresas na coleta de resíduos ♻
   
 ---
 
-## Como baixar o projeto
+## 📑 Como baixar o projeto
 
   Para clonar e rodar a aplicação você pecisará ter Git e Node.js instalado em seu computador.
 
