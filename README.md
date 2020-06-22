@@ -4,6 +4,18 @@
 
 ![Ecoleta](https://github.com/Lucianobarretto/projeto_nlw/blob/master/ecoletanew.gif)
 
+<p align="center">
+
+  <a href="https://www.linkedin.com/in/lucianobalmeida/">
+    <img alt="Made by Luciano Barreto" src="https://img.shields.io/badge/Made%20by-Luciano%20Barreto-blue">
+  </a>
+
+  <a href="LICENSE" >
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
+  </a>
+
+</p>
+
 ### Assista a demonstração em vídeo
 [![Ecoleta - gerenciador de pontos de coleta seletiva](http://img.youtube.com/vi/Qy0X5AOlljA/0.jpg)](http://www.youtube.com/watch?v=Qy0X5AOlljA "Vídeo demonstração do aplicativo")
 ---
@@ -13,10 +25,11 @@
   - [Tecnologias Utilizadas](#-tecnologias-e-ferramentas-utilizadas)
   - [Como baixar o projeto](#-como-baixar-o-projeto)
   - [Créditos](#-créditos)
+  - [Licença](#-licença)
 
 ---
 
-## 📑 Sobre
+## :memo: Sobre
 <p>Um projeto criado do zero durante a "Next Level Week #01" da Rocketseat. É uma aplicação para gerenciamento, localização e centralização dos pontos de coleta seletiva de recicláveis.</p>
 <p>A coleta seletiva é o recolhimento de materiais recicláveis que foram previamente separados do lixo comum pela população. Ao ser colocada em prática, ela permite que o vidro, o papel, o plástico e os metais existentes nos objetos descartados, entre outros, sejam utilizados na confecção de novos produtos. O reaproveitamento reduz a quantidade de resíduos que é destinada ao aterro sanitário, aumentando sua vida útil e preservando o meio ambiente.</p>
 <p>Este evento foi online e totalmente gratuito que serve para ajudar na evolução de desenvolvedores.</p>
@@ -31,14 +44,14 @@ Ecoleta é um projeto que conecta pessoas e empresas na coleta de resíduos ♻
 
 ---
 
-## 📑 Tecnologias e Ferramentas utilizadas
+## :rocket: Tecnologias e Ferramentas utilizadas
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/)
   
 ---
 
-## 📑 Como baixar o projeto
+## :file_cabinet: Como baixar o projeto
 
   Para clonar e rodar a aplicação você pecisará ter Git e Node.js instalado em seu computador.
 
@@ -68,12 +81,17 @@ Ecoleta é um projeto que conecta pessoas e empresas na coleta de resíduos ♻
   
 ---
 
-## 📑 Créditos
+## :memo: Créditos
 
 - Luciano Barreto
 [LinkedIn](https://www.linkedin.com/in/lucianobalmeida/)
 - Rocketseat
-- Vanessa R. Koch
+
+---
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
 
 ---
 
