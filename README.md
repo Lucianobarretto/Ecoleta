@@ -94,4 +94,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para m
 
 ---
 
+<p align="center">
+<a href="https://www.linkedin.com/in/lucianobalmeida/" rel="some text"><img src="https://github.com/Lucianobarretto/projeto_nlw/blob/master/Logo5.png" alt="Logo Luciano Barreto" /></a></p>
+
 <p align="center">Desenvolvido por Luciano Barreto</p>
